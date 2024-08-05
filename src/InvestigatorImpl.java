@@ -4,6 +4,8 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
 
@@ -229,15 +231,21 @@ public class InvestigatorImpl implements Investigator {
             return "NULL";
         }
         Class<?> currentClass = obj.getClass();
-        StringBuilder inheritanceChain = new StringBuilder();
+
+        List<String> classNames = new ArrayList<>();
 
         while (currentClass != null) {
-            inheritanceChain.append(currentClass.getSimpleName());
-            Class<?> nextClass = currentClass.getSuperclass();
-            if (nextClass != null) {
+            classNames.add(currentClass.getSimpleName());
+            currentClass = currentClass.getSuperclass();
+        }
+
+        StringBuilder inheritanceChain = new StringBuilder();
+
+        for (int i = classNames.size() - 1; i >= 0; i--) {
+            inheritanceChain.append(classNames.get(i));
+            if (i > 0) {
                 inheritanceChain.append(delimiter);
             }
-            currentClass = nextClass;
         }
 
         return inheritanceChain.toString();

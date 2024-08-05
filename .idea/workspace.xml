@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e92c7ba-06a8-45c6-80f5-07a176af8a46" name="Changes" comment="Implemented InvestigaorImpl">
-      <change afterPath="$PROJECT_DIR$/src/InvestigatorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflection/api/Investigator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvestigatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvestigatorImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "danielomesi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;danielomesi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/danielomesi/Reflection-Exercise.git",
-    "accountId": "ebd5f9e4-f5f9-404f-abfd-66515f103515"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/danielomesi/Reflection-Exercise.git&quot;,
+    &quot;accountId&quot;: &quot;ebd5f9e4-f5f9-404f-abfd-66515f103515&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2kFYC0aEN1U9bsbVkqfPk3KgFew" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -60,7 +58,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/omesi/IdeaProjects/Reflection Exercise/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,8 +85,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722880661334</updated>
-      <workItem from="1722880662361" duration="3757000" />
+      <workItem from="1722880662361" duration="4062000" />
+      <workItem from="1722884903748" duration="476000" />
     </task>
+    <task id="LOCAL‎-00001" summary="Implemented InvestigaorImpl">
+      <option name="closed" value="true" />
+      <created>1722884510106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1722884510106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,5 +106,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Implemented InvestigaorImpl" />
     <option name="LAST_COMMIT_MESSAGE" value="Implemented InvestigaorImpl" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
